@@ -1,0 +1,365 @@
+https://mail.google.com/cloudsearch/request?client=gmail&hl=en&gs_rn=5&gs_ri=gmail&em=vivekavardhan.yuva2020%40gmail.com&view=1
+&in_chips_experiment=false&cp=0&gs_id=1q&zx=dddoaodwc1w
+
+
+Emplyoeee( id, name)
+
+EmpDetails( empid, salary)
+
+5th hegihst  salary
+  select name from emp where =( Select COUNT(DISTINCT salary) From Empde where salary>
+
+a, b
+
+a=5
+b=3
+
+a= a*b; 30
+b= a/b; 30/3= 10
+a=a/b; 30/10 =3
+
+Emplye (id , name, salry)
+
+ArrayList<String> 
+
+sorted= al.stream().sorted((o1, o2)->o1.compareTo(o2)).collect(Collectors.toList());
+
+
+
+
+
+class TestApp {
+    protected int x, y;
+}
+class Main {
+    public static void main(String args[]) {
+        TestApp app = new TestApp();
+        System.out.println(app.x + " " + app.y);
+    }
+}
+
+
+
+class TestApp {
+    int i[] = { 0 };
+    public static void main(String args[]) {
+        int i[] = { 1 };
+        alter(i);
+        System.out.println(i[0]);
+    }
+    public static void alter(int i[]) {
+        int j[] = { 2 };
+        i = j;
+    }
+}
+
+
+[3:22 PM] Rahul Vinodrao Khode
+    class TestApp {​​​
+    String args[] = {​​​ "1", "2" }​​​;
+    public static void main(String args[]) {​​​
+        if (args.length > 0)
+            System.out.println(args.length);
+    }​​​
+}​​​
+
+class TestApp {
+    public static void main() {
+        int odd = 1;
+        if (odd) {
+            System.out.println("odd");
+        } else {
+            System.out.println("even");
+        }
+    }
+}
+
+String test = "This this code is is written by Rahul Rahul". 
+o/p - This=1, this=1, code=1, is=2, written=1, by=1, Rahul=2
+
+
+
+
+
+
+class CountWord{
+
+String test = "This this code is is written by Rahul Rahul"
+
+Map<String, Integer> hmp= new HashMap<>();
+
+String[] w= test.split(" ");
+for(String words:words)
+{
+    Integer integer=hashMap.get(w);
+
+    if(integer==null)
+    {
+
+        hmp.put(w,1);
+
+    }
+    else
+    {
+         hmp.put(word, integer+1);
+    }
+}
+System.out.println(hmp);
+
+
+
+1) how to communicate micro services with each other
+
+
+
+
+void genereating{
+if(start==end-1)
+{
+
+      system.out.printlmn("str");
+}
+else 
+{
+    for(int i=start;i<end;i++)
+{
+     str= swapString(str, start, i);
+
+    gereratePermutation(str, start+1, end);
+  str= swapString(str, strat, i);
+}
+}
+}
+swapString(String a, int i, int j)
+{
+
+char[] b =a.toCharArray();
+ch = b[i];
+b[i]= b[j];
+b[j]= ch;
+
+return String.valueOf(b);
+}
+
+
+
+
+
+
+@pr-update
+
+
+
+prime numbers
+{2,3,4,5,6,7,8,9,11,22,33}
+======
+
+class Prime{
+
+
+public static void main(String args[])
+{
+
+     List<Integer> numbers= ArrayList.AsList(2,3,4,5,6,7,8,9,11,22,33);
+     System.out.println(numbers.stream().filter(Stream1::isPrime).collect(toList()));
+}
+
+public static blooean isPrime(int number)
+{
+       for(int i=2; i<=number/2;i++)
+       {
+
+          if(number %i == 0)
+          {
+          return false;
+          }
+
+       }
+       return true;
+}
+
+ICE, Water, AIR
+
+
+class ExaObject {
+        
+public static void main(String args[])
+{
+
+    Ice ic= new Ice();
+    Water water= new Water();
+    Air air = new Air();
+
+}
+college 
+
+Techers Department
+
+
+<>
+
+class Employee {
+
+
+}
+
+public BigDecimal getTotalSalary(Employee employeelist) {
+
+List<Eployee> employee = Array.asList(new Employee(1
+
+int totalmarks=list.stream().collect(collectors.sum(Employee::getSalary());
+
+}
+
+controller 
+
+getMapping 
+
+list of requestio
+
+@Requestmapping("/rest/cgi")
+
+class Controller{
+
+
+@Getmapping(value = "/fetch_details")
+
+
+pubilc Flux getDetails(@RequestParama default="v1" String version version, @RequestParam defalut="" String Id id)
+{
+//    list string 
+
+}
+
+
+
+
+String s= abcacd
+
+SELECT     mother,
+           father
+FROM      (
+                      SELECT     id,
+                                 name,
+                                 sum(
+                                 CASE
+                                            WHEN gender = 'F' THEN 1
+                                            ELSE 0) AS mother,
+                                 sum (
+                                 CASE
+                                            WHEN gender = 'M' THEN 1
+                                            ELSE 0) AS father
+                      FROM       people
+                      INNER JOIN relation
+                      ON         people. id = relation.p_id
+                      GROUP BY   id,
+                                 name) t1
+INNER JOIN relation
+ON         relation.p_id = t1.id
+
+
+Q)  
+
+list {}
+
+id , name 
+
+list into map
+
+conver=list.stream().map().collect(coollector.asMap());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
